@@ -1,0 +1,1 @@
+mongod.exe --config="C:\vaibhav\Udemy\MongoDB\mongo.config"

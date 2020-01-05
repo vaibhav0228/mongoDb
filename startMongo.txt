@@ -1,0 +1,12 @@
+to start the mongo db server:
+
+create config file in mongo db folder with below contents (mongo.config)
+port=27017
+dbpath=[MONGO_INSTALLTAION_DIR]\data\db\
+logpath=[MONGO_INSTALLTAION_DIR]\log\mongo.log
+
+start the server using below command
+mongod.exe --config="[MONGO_INSTALLTAION_DIR]\mongo.config"
+
+To start mongo shell or mongo client, use below command
+mongo --port 27017
